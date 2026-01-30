@@ -14,6 +14,7 @@ export function Header() {
             <li><a href="/services.html" class="nav-link">Services</a></li>
             <li><a href="/products.html" class="nav-link">Products</a></li>
             <li><a href="/contact.html" class="nav-link">Contact</a></li>
+            <li class="mobile-only-item"><a href="/contact.html" class="btn btn-primary full-width text-center">Book Site Visit</a></li>
           </ul>
         </nav>
 
