@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Karwaan Construction</title>
+    <meta name="description" content="Get in touch with Karwaan Construction for quotes, site visits, and inquiries." />
+    <!-- Preload critical styles to prevent FOUC -->
+    <link rel="stylesheet" href="/src/styles/index.css">
+    <link rel="stylesheet" href="/src/styles/layout.css">
+    <link rel="stylesheet" href="/src/styles/home.css">
+    <link rel="stylesheet" href="/src/styles/pages.css">
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="hero-overlay"></div>
+            <div class="container relative z-10 text-center text-white">
+                <h1 class="heading-lg">Contact Us</h1>
+                <p class="breadcrumbs">Home > Contact Us</p>
+            </div>
+        </section>
+
+        <!-- Contact Info & Form -->
+        <section class="section">
+            <div class="container">
+                <div class="grid-2-col contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h4 class="section-subheading">Get In Touch</h4>
+                        <h2 class="section-heading">Let's Discuss Your Dream Project</h2>
+                        <p class="section-desc">
+                            Have a project in mind? Call us or fill out the form to schedule a site visit or
+                            consultation.
+                        </p>
+
+                        <div class="info-items">
+                            <div class="info-item">
+                                <span class="icon">📍</span>
+                                <div>
+                                    <h4>Visit Us</h4>
+                                    <p>Shop No. 27, Royal Plaza, U.G.F, Munshi Pulia, Sector 16, Indira Nagar, Lucknow,
+                                        Uttar Pradesh – 226016</p>
+                                </div>
+                            </div>
+                            <div class="info-item mt-md">
+                                <span class="icon">📞</span>
+                                <div>
+                                    <h4>Call Us</h4>
+                                    <p>+91 98765 43210</p>
+                                </div>
+                            </div>
+                            <div class="info-item mt-md">
+                                <span class="icon">⏰</span>
+                                <div>
+                                    <h4>Working Hours</h4>
+                                    <p>Mon - Sun: 10 AM – 7 PM</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="map-container mt-lg" style="height: 250px; border-radius: 8px; overflow: hidden;">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113911.38319688465!2d80.8988243!3d26.8486938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd991f32b16b%3A0x93ccba23b119b43!2sLucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1655112345678!5m2!1sen!2sin"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper bg-off-white p-lg radius-md">
+                        <h3 class="mb-md">Send us a Message</h3>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-control" placeholder="Your Phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="interest">Interested In</label>
+                                <select id="interest" class="form-control">
+                                    <option>Residential Construction</option>
+                                    <option>Commercial Construction</option>
+                                    <option>Interior Design</option>
+                                    <option>Buy Products</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" class="form-control"
+                                    placeholder="Tell us about your requirements"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+/* Pages Specific Styles */
+
+/* Services Page */
+.reverse-col {
+    direction: rtl;
+    /* Trick to reverse grid order visually if needed, but grid-areas better */
+}
+
+.reverse-col>* {
+    direction: ltr;
+}
+
+/* Actually better way to reverse grid on desktop */
+@media (min-width: 992px) {
+    .reverse-col .service-img {
+        order: 2;
+    }
+
+    .reverse-col .service-details {
+        order: 1;
+    }
+}
+
+.center-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Projects Page */
+.filter-controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.filter-controls .btn-outline {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: transparent;
+}
+
+.filter-controls .btn-outline.active,
+.filter-controls .btn-outline:hover {
+    background: var(--color-primary);
+    color: #fff;
+}
+
+/* Products Page */
+.full-width {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-sm {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+}
