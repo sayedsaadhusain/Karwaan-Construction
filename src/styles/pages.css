@@ -46,6 +46,19 @@
     color: #fff;
 }
 
+.page-header h1,
+.page-header p {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.page-header .breadcrumbs {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
 /* Products Page */
 .full-width {
     width: 100%;

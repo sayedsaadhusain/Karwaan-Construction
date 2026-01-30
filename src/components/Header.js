@@ -3,7 +3,7 @@ export function Header() {
     <header class="header" id="header">
       <div class="container header-container">
         <a href="/" class="logo">
-          Karwaan <span>Construction</span>
+          <img src="/src/assets/images/logo.png" alt="Karwaan Construction" style="height: 60px; width: auto;">
         </a>
         
         <nav class="nav">
