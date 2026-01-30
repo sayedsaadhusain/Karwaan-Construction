@@ -1,9 +1,11 @@
+import logo from '../assets/images/logo.png';
+
 export function Header() {
   return `
     <header class="header" id="header">
       <div class="container header-container">
         <a href="/" class="logo">
-          <img src="/src/assets/images/logo.png" alt="Karwaan Construction" style="height: 60px; width: auto;">
+          <img src="${logo}" alt="Karwaan Construction" style="height: 60px; width: auto;">
         </a>
         
         <nav class="nav">
